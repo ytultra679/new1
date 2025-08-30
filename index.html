@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChaseStyle - Fashion Redefined</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">ChaseStyle</div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Collections</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="icons">
+      <input type="text" id="searchBox" placeholder="Search..." />
+      <button id="cartBtn">🛒</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Redefine Your Fashion</h1>
+    <p>Trendy. Stylish. Affordable.</p>
+    <a href="#" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div>🚚 Free Shipping</div>
+    <div>💳 Secure Payment</div>
+    <div>🔄 Easy Returns</div>
+  </section>
+
+  <!-- Products -->
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid" id="productGrid"></div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <h3>Join Our Newsletter</h3>
+    <input type="email" placeholder="Enter your email" id="newsletterEmail"/>
+    <button id="subscribeBtn">Subscribe</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 ChaseStyle. All rights reserved.</p>
+  </footer>
+
+  <!-- Cart Drawer -->
+  <div id="cartDrawer" class="cart-drawer">
+    <h3>Your Cart</h3>
+    <ul id="cartItems"></ul>
+    <button id="closeCart">Close</button>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
